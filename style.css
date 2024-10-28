@@ -1,14 +1,28 @@
+/* **************************************GENRAL************************************************************** */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(255, 223, 44);
+    background-color: rgb(255, 222, 38);
     font-family: "Open Sans", sans-serif;
 }
 
-.photo{
-    width: 200px;
-    height: auto;
+#wrapper {
+    width:80%;
+    margin:auto;
 }
 
 footer {
     background-color: rgb(20, 72, 175);
     color: white;
+    margin: 10px 0 10px 0;
 }
+
+.photo {
+    width: 200px;
+    height: auto;
+}
+
